@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9ad08cdb-1e36-4d28-af67-b931429b3e7d)
+
+  (paper "B")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 95.25 44.45) (size 27.94 21.59)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 08ab38b5-93b2-470c-95c6-79ec854b906f)
+    (property "Sheetname" "MCU" (at 95.25 52.07 0)
+      (effects (font (size 5 5)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 95.25 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "rp2040_audio_spectrum"
+        (path "/9ad08cdb-1e36-4d28-af67-b931429b3e7d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 44.45) (size 27.94 21.59)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d89245f8-1b4a-47ee-96ac-0390887c7655)
+    (property "Sheetname" "Analog" (at 130.81 52.07 0)
+      (effects (font (size 5 5)) (justify left bottom))
+    )
+    (property "Sheetfile" "Analog.kicad_sch" (at 130.81 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "rp2040_audio_spectrum"
+        (path "/9ad08cdb-1e36-4d28-af67-b931429b3e7d" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 166.37 44.45) (size 27.94 21.59)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fcf41624-cc12-45d8-82f8-3bd46adeede0)
+    (property "Sheetname" "LEDs" (at 166.37 52.07 0)
+      (effects (font (size 5 5)) (justify left bottom))
+    )
+    (property "Sheetfile" "LEDs.kicad_sch" (at 166.37 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "rp2040_audio_spectrum"
+        (path "/9ad08cdb-1e36-4d28-af67-b931429b3e7d" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

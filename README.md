@@ -1,0 +1,2 @@
+This PCBA is a grid of neopixels that can be driven by 2 different MCUs - either the default RP2040 MCU, or an ESP32-C3-MINI. It has a 3.5mm headphone jack, a microphone, and power input either from USB-C (5V,3A) or a barrel jack for wall-wart power.  There is variable gain in the augio signal chain with a SPI potentiometer, but only the RP2040 can control that as of right now.  There are 0R resistors you can remove and room for an 0805 resistor to set fixed gain.  
+![image](https://github.com/gabeak2/WS2812_array/assets/59489552/534ce1ef-8c1b-4750-8d63-ca6dbe3aa1c9)

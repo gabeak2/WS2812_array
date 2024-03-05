@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|218541600|243634200|4606cca7-d701-4041-a1c5-4152b94c6ff7|31b919bd-71af-491b-96e4-57fc9c369494|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -421,7 +423,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.209187,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.366567,
@@ -438,7 +440,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.209187,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.366567,
@@ -535,6 +537,10 @@
     [
       "d89245f8-1b4a-47ee-96ac-0390887c7655",
       "Analog"
+    ],
+    [
+      "b40ec986-0657-4cce-b5ab-4eb71f109820",
+      "MISC"
     ],
     [
       "fcf41624-cc12-45d8-82f8-3bd46adeede0",

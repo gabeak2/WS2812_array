@@ -25,6 +25,23 @@
     )
   )
 
+  (sheet (at 95.25 74.93) (size 27.94 20.32)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b40ec986-0657-4cce-b5ab-4eb71f109820)
+    (property "Sheetname" "MISC" (at 96.52 82.55 0)
+      (effects (font (size 5 5)) (justify left bottom))
+    )
+    (property "Sheetfile" "mechanical.kicad_sch" (at 95.25 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "rp2040_audio_spectrum"
+        (path "/9ad08cdb-1e36-4d28-af67-b931429b3e7d" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 130.81 44.45) (size 27.94 21.59)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

@@ -1,4 +1,4 @@
-22304212386186363
+22305921736369917
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92252,6 +92252,13 @@ ind_SWRB1207S-221MT
 0
 2
 2
+components_2
+single_tht
+
+
+0
+1
+1
 components_2
 smt_conn_pad_2p
 
